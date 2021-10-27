@@ -1,0 +1,21 @@
+{
+  "name": "projeto-nodejs-ts",
+  "version": "1.0.0",
+  "description": "Projeto de teste do TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "usuario",
+    "criacao"
+  ],
+  "author": "Priscilla Pinheiro",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "query-string": "^7.0.1",
+    "typescript": "^4.4.4"
+  }
+}
