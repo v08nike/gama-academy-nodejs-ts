@@ -4,15 +4,15 @@ import { parse } from 'query-string';
 import * as url from 'url';
 import { writeFile } from 'fs';
 
-// Definição de porta
+// Definição de endereço / URL
 const port = 5000
 
-
+// Implementação da regra de negócio
 const server = createServer((request: IncomingMessage, response: ServerResponse) => {
 
     const urlparse = url.parse(request.url ? request.url : '', true);
 
-    var resposta ;
+    var resposta;
 
     // Receber informações do usuário
     const params = parse(urlparse.search ? urlparse.search : '');

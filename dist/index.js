@@ -24,8 +24,9 @@ var http_1 = require("http");
 var query_string_1 = require("query-string");
 var url = __importStar(require("url"));
 var fs_1 = require("fs");
-// Definição de porta
+// Definição de endereço / URL
 var port = 5000;
+// Implementação da regra de negócio
 var server = (0, http_1.createServer)(function (request, response) {
     var urlparse = url.parse(request.url ? request.url : '', true);
     var resposta;
