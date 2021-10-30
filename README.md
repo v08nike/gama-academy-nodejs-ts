@@ -18,7 +18,7 @@
 </p>
 
 ## :computer: Projeto
-Aplicação simples para criação, alteração, busca e remoção de usuários.
+Aplicação simples para criação e alteração de usuários.
 
 ## :rocket: Tecnologias
 
