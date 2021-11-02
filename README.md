@@ -3,9 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-professor(a)">Professor(a)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
 
@@ -21,7 +22,6 @@
 Aplicação simples para criação e alteração de usuários.
 
 ## :rocket: Tecnologias
-
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -42,6 +42,10 @@ Para atualizar um usuário já criado, repita o mesmo processo, mas inluindo ou 
 http://localhost:5000/criar-atualizar-usuario?id=123&nome=erik-borges
 ```
 Em todas as ações, será impresso no navegador a confirmação da execução.
+
+## :green_heart: Professor(a)
+Érik Borges
+| :---: |
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
